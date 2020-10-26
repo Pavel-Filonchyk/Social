@@ -3,14 +3,14 @@ import React from 'react';
 import "../post-add-form/post-add-form.css"
 const PostAddForm = () => {
     return (
-        <form ClassName = "botton-panel d-flex">
+        <form className = "bottom-panel d-flex">
             <input
                 type = "text"
-                placeholder = "О чём вы думаете сейчас"
+                placeholder = "What are you thinking now?"
                 className = "form-control new-post-label"
             />
             <button className = "btn btn-outline-secondary" type = "submit" >
-                Добавить пост
+                Add post
             </button>
         </form>
     )
